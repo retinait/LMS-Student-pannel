@@ -1,0 +1,35 @@
+.exam-header-wrap {
+	background: #fff;
+}
+
+.exam-header-wrap .exam-header {
+	/* padding: 10px 60px; */
+	padding: 0px 20px;
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.exam-header-wrap .ant-affix {
+	background: #fff;
+	box-shadow: 0 1px 10px rgb(0 0 0 / 10%);
+}
+
+.exam-header-title {
+	margin-bottom: 0 !important;
+	margin-left: 15px;
+}
+
+.cancel-exam-button {
+	background-color: #9e9e9e;
+	border-color: #9e9e9e;
+}
+
+.cancel-exam-button:hover {
+	background-color: #f44336;
+	border-color: #f44336;
+}

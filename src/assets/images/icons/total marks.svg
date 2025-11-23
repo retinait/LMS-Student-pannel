@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-total_marks">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="total_marks" data-name="total marks" clip-path="url(#clip-total_marks)">
+    <g id="Group_410" data-name="Group 410">
+      <g id="Group_401" data-name="Group 401" transform="translate(-17.756 -211.756)">
+        <circle id="Ellipse_186" data-name="Ellipse 186" cx="243.5" cy="243.5" r="243.5" transform="translate(30.756 217.756)" fill="#2c9c55"/>
+        <text id="A_" data-name="A+" transform="translate(122.756 543.756)" fill="#fff" font-size="266" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.115em"><tspan x="0" y="0">A+</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

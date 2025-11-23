@@ -1,0 +1,12 @@
+.cardAnsGrid {
+	width: 50%;
+	border: none;
+	box-shadow: none;
+	padding: 5px 10px;
+}
+
+@media (max-width: 425px) {
+	.cardAnsGrid {
+		width: 100%;
+	}
+}

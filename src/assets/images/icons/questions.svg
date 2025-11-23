@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-questions">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="questions" clip-path="url(#clip-questions)">
+    <circle id="Ellipse_205" data-name="Ellipse 205" cx="243.5" cy="243.5" r="243.5" transform="translate(13 13)" fill="#077b8a"/>
+    <path id="Icon_awesome-question" data-name="Icon awesome-question" d="M103.344,0C57.4,0,27.646,18.823,4.284,52.392a13.828,13.828,0,0,0,2.98,18.921L32.094,90.14a13.813,13.813,0,0,0,19.14-2.387C65.651,69.69,76.346,59.291,98.866,59.291c17.707,0,39.609,11.4,39.609,28.566,0,12.98-10.715,19.647-28.2,29.449-20.389,11.431-47.369,25.657-47.369,61.244v5.634A13.814,13.814,0,0,0,76.72,198h41.712a13.814,13.814,0,0,0,13.814-13.814V180.86c0-24.669,72.1-25.7,72.1-92.452C204.348,38.135,152.2,0,103.344,0ZM97.577,214.953a39.87,39.87,0,1,0,39.87,39.87A39.916,39.916,0,0,0,97.577,214.953Z" transform="translate(152.927 108.653)" fill="#fff"/>
+  </g>
+</svg>

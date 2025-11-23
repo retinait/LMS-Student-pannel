@@ -1,0 +1,46 @@
+.chapter-lecture-tab {
+	display: flex;
+	justify-content: center;
+}
+
+.chapter-lecture-tab .ant-menu-item.ant-menu-item-selected a {
+	color: #ee473f !important;
+}
+.chapter-lecture-tab .ant-menu-item.ant-menu-item-selected:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -3px;
+	background: #ee473f;
+	height: 4px;
+	border-radius: 5px;
+}
+.chapter-lecture-tab .ant-menu-item {
+	position: relative;
+	margin: 0 !important;
+	font-weight: 600;
+	border-bottom: none !important;
+}
+.chapter-lecture-tab .ant-menu {
+	background: transparent;
+	text-align: center;
+	border-bottom: 4px solid #dccddc !important;
+	min-width: 200px;
+}
+
+@media (min-width: 425px) {
+	.chapter-lecture-tab .ant-menu-item {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 424px) {
+	.chapter-lecture-tab .ant-menu-item {
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+		font-size: 14px;
+	}
+}

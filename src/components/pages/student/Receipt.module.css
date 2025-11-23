@@ -1,0 +1,214 @@
+.container {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  color: #0f172a;
+  font-size: 12px; /* reduced globally */
+}
+
+.controls {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+/* Compact container padding to conserve space */
+.content {
+  background: #fff;
+  border: 1px solid #e9eef4;
+  border-radius: 10px;
+  padding: 6px 18px; /* was 8px 24px */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* ===== Header (letterhead + centered title) ===== */
+.header {
+  text-align: center;
+  margin: 6px 0 3px;
+  padding-top: 6px;
+}
+.headerImg img {
+  height: 40px;
+  width: auto;
+  margin-bottom: 3px;
+}
+.headerLine {
+  color: #111827;
+  line-height: 1.1;
+  margin: 1px 0;
+  font-weight: 700;
+  font-size: 12px; /* smaller */
+}
+/* Title is inside header, so it can be pre-printed */
+.receiptTitle {
+  display: inline-block;
+  margin-top: 3px;
+  border: 1px solid #800000;
+  background-color: #800000;
+  color: #fff;
+  padding: 2px 8px; /* tighter */
+  font-weight: 900;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+/* Optional minimal title shown when header is off */
+.standaloneTitleWrap {
+  display: flex;
+  justify-content: center;
+  margin: 4px 0 2px;
+}
+
+/* ===== Serial + Date row (same line, below header/title) ===== */
+.serialDateRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Serial left, Date right */
+  gap: 10px;
+  margin: 4px 0;
+  font-size: 12px;
+}
+
+.Values {
+  border-bottom: 1px dotted #000;
+  padding: 0 4px; /* was 6px */
+  font-weight: 700;
+}
+
+/* ===== Info Section (4 rows: 2 / 2 / 2 / 3 columns) ===== */
+.infoGridWrap {
+  border: 1px solid #e3e9f1;
+  border-radius: 8px;
+  padding: 4px; /* was 6px */
+  background: #fff;
+  margin: 4px 0 6px;
+  display: grid;
+  gap: 4px; /* was 6px */
+  font-size: 12px;
+}
+
+/* Per-row grids with variable column counts */
+.infoRow { display: grid; gap: 6px; align-items: center; }
+.cols2   { grid-template-columns: 1fr 1fr; }
+.cols3   { grid-template-columns: 1fr 1fr 1fr; }
+
+.infoRow > div {
+  display: flex;
+  align-items: center;
+  gap: 4px; /* tighter */
+  min-height: 20px; /* was 24px */
+  line-height: 1.1;
+  word-break: break-word;
+  font-size: 12px;
+}
+
+/* Keep important values on a single line when possible */
+.noWrapValue .Values { white-space: nowrap; }
+.nowrapSm { white-space: nowrap; }
+
+/* Ticks */
+.ticksRow  { row-gap: 3px; }
+.ticksCell { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.ticksTitle { font-weight: 900; font-size: 12px; }
+.flag { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; }
+.tick {
+  display: inline-block;
+  width: 13px; /* was 14px */
+  height: 13px;
+  border: 1px solid #495a6b;
+  text-align: center;
+  line-height: 13px;
+  font-size: 10px; /* was 11px */
+  border-radius: 2px;
+}
+
+/* ===== Tables — compact ===== */
+.table { width: 100%; margin-bottom: 6px; }
+.table table { border-collapse: collapse; width: 100%; font-size: 12px; }
+.table th, .table td { border: 1px solid #000; padding: 4px; text-align: left; }
+.table th:last-child, .table td:last-child { text-align: right; }
+
+.paymentsTable { width: 100%; margin-bottom: 6px; font-size: 12px; }
+.paymentsTable table { border-collapse: collapse; width: 100%; border: 1px solid #000; }
+.paymentsTable th, .paymentsTable td { border: 1px solid #000; padding: 4px; text-align: left; }
+.paymentsTable th:last-child, .paymentsTable td:last-child { text-align: right; }
+
+/* ===== Totals — compact ===== */
+.amountGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px; /* was 6px */
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+.amountGrid div { display: flex; align-items: center; gap: 4px; }
+.amountGrid span { padding: 0 4px; font-weight: 700; }
+
+.amountInWords {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+.amountInWords span { padding: 0 4px; font-weight: 700; }
+
+/* ===== Signatures — compact ===== */
+.signArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px; /* was 12px */
+  margin: 8px 0 4px;
+}
+.sigBox { display: flex; flex-direction: column; align-items: center; gap: 3px; }
+.sigLine { width: 78%; height: 1px; background: #111827; margin-top: 18px; } /* tighter */
+.sigLabel { font-size: 11px; font-weight: 700; }
+
+/* ===== Mask sensitive value (coupon code) ===== */
+.mask { -webkit-text-security: disc; text-security: disc; filter: blur(3px); }
+
+/* ===== Footer ===== */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0 4px;
+}
+.footer p { font-size: 11px; margin: 1px 0; }
+
+/* ===== Print helpers ===== */
+.print-hide-header { visibility: hidden !important; }
+.print-header-spacer { display: none; }
+
+@media print {
+  .no-print { display: none !important; }
+  [data-print-header="off"] .print-header { display: none !important; }
+  /* ↓ reduced by ~40px (was effectively larger via inline pageStyle) */
+  [data-print-header="off"] .print-header-spacer { display: block !important; height: 130px; }
+}
+
+/* ===== Responsive tweaks ===== */
+@media (max-width: 900px) {
+  .cols3 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 700px) {
+  .cols2 { grid-template-columns: 1fr; }
+  .cols3 { grid-template-columns: 1fr; }
+  .serialDateRow { flex-direction: column; align-items: flex-start; gap: 3px; }
+}
+
+/* For printing two copies in one dialog */
+.dualWrap { /* regular flow; nothing special for screen */ }
+
+/* Force a new printed page between Office and Student copies */
+.pageBreak { display: none; }
+@media print {
+  .pageBreak { display: block; break-before: page; page-break-before: always; }
+}

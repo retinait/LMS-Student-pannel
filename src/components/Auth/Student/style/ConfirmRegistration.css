@@ -1,0 +1,184 @@
+.body {
+	font-size: 1.15em;
+}
+
+.login-bg {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.forgotpass {
+	color: #2c73e7;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin: 10px 0;
+}
+.login-form-column {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.login-form-column .form-wrap {
+	max-width: 480px;
+	min-width: 310px;
+	width: 95%;
+	margin: 10px auto;
+	/* background: linear-gradient(180deg, rgb(236 255 233 / 85%), rgb(255 255 255 / 38%)); */
+	background: linear-gradient(
+		200deg,
+		rgb(236 255 233 / 85%),
+		rgb(255 237 255 / 77%)
+	);
+	/* backdrop-filter: blur(5px); */
+	padding: 20px 30px;
+	/* top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%); */
+	transition: all 0.5s;
+	border: 1px solid #fff;
+	/* padding-bottom: 120px; */
+	padding-bottom: 20px;
+	border-radius: 15px;
+}
+
+.form-title {
+	text-align: center;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+
+.form-subtitle {
+	text-align: center;
+	margin-bottom: 20px !important;
+}
+
+.login-form-column .form-wrap .ant-form-item {
+	margin-bottom: 10px;
+}
+
+.login-form-column .ant-checkbox-checked .ant-checkbox-inner::after {
+	border-color: #22ade8;
+}
+
+.login-form-column .ant-checkbox-checked .ant-checkbox-inner {
+	background: #fff;
+	border-color: #22ade8;
+	box-shadow: 0 0 4px #2cb1e9;
+}
+
+.login-form-column .form-wrap .ant-input-affix-wrapper {
+	/* border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent; */
+	/* margin-bottom: 60px; */
+	border: 2px solid #bebfbd;
+	border-radius: 40px;
+	padding: 11px 15px;
+}
+
+.login-form-column .form-wrap .ant-input-affix-wrapper .anticon {
+	font-size: 20px;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+	padding-left: 5px;
+	font-size: 18px;
+}
+
+.login-form-column
+	.form-wrap
+	.ant-input-affix-wrapper.ant-input-affix-wrapper-focused {
+	border-color: #4abaed;
+}
+.login-form-column
+	.form-wrap
+	.ant-input-affix-wrapper.ant-input-affix-wrapper-focused
+	.anticon {
+	color: #4abaed !important;
+}
+/* .login-form-column .form-wrap .ant-input-affix-wrapper.ant-input-affix-wrapper-focused > input.ant-input:-webkit-autofill {
+  -webkit-text-fill-color: #4ABAED  !important;
+} */
+
+/* .login-form-column .form-wrap .ant-input-affix-wrapper.ant-input-affix-wrapper-focused > input.ant-input {
+	color: #4ABAED !important;
+} */
+
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper-focused:hover {
+	box-shadow: none;
+	border-color: #4abaed;
+}
+
+.login-art,
+.login-logo {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+@media (max-width: 991px) {
+	.login-art {
+		display: none;
+	}
+}
+
+@media (max-width: 1024px) {
+	.login-art {
+		justify-content: center;
+	}
+	.login-art svg {
+		width: 29vw;
+		height: auto;
+	}
+}
+
+@media (max-width: 767px) {
+	.login-logo {
+		justify-content: center;
+	}
+}
+
+@media (min-width: 1025px) {
+	.login-art svg {
+		width: 26vw;
+		height: auto;
+	}
+}
+
+@media (max-width: 768px) {
+	/* .logo {
+		height: 60px !important;
+	} */
+
+	/* .login-form-column {
+		min-height: calc(100vh - 60px);
+	} */
+}
+.logo {
+	max-width: 400px;
+	height: 90px;
+}
+
+.login-form-button {
+	height: 45px;
+	font-weight: 600;
+	border-radius: 40px;
+	border-color: #e93f36;
+	/* background: linear-gradient(0deg, #e93f36, #e75032); */
+	background-color: #e93f36;
+}
+.login-form-button:hover,
+.login-form-button:focus {
+	background: #e93f36;
+	border-color: #e93f36;
+}
+
+.resend-otp,
+.register-btn {
+	font-size: 18px;
+	font-weight: 700;
+	color: #e93f36;
+}

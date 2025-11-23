@@ -1,0 +1,298 @@
+.score-user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.score-user-avatar {
+  margin-right: 10px;
+  box-shadow: 0 0 15px 6px rgb(0 0 0 / 10%);
+  border: 3px solid #fff !important;
+  flex-shrink: 0;
+}
+
+
+@media (max-width: 767px) {
+  .score-user {
+    margin-bottom: 15px;
+  }
+}
+
+@media print {
+	body * {
+		visibility: hidden;
+	}
+
+	.print-teacher {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+	}
+
+	.print-teacher,
+	.print-teacher * {
+		visibility: visible;
+	}
+
+	.print-teacher .questions-wrapper {
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 999999;
+	}
+
+	.print-teacher .questions-wrapper .ant-divider:not(.explanation-divider) {
+		display: none;
+	}
+
+	.explanation-card p {
+		font-size: 14px;
+	}
+
+	.explanation-image {
+		padding: 0px;
+		width: 100%;
+		max-width: 100%;
+		/* min-width: auto; */
+		max-height: 7016px;
+	}
+
+	.explanation-card img {
+		object-fit: none;
+		/* page-break-before: left;
+    page-break-after: left;
+    page-break-inside: left; */
+	}
+
+	.print-teacher .ant-table-thead {
+		display: none !important;
+	}
+
+	.print-teacher .ant-table-tbody > tr > td {
+		border-bottom: none !important;
+	}
+	.print-teacher.course-wise-que-table .ant-table-selection-col,
+	.print-teacher.course-wise-que-table .ant-table-selection-column {
+		display: none !important;
+	}
+	.print-teacher.course-wise-que-table .question-row {
+		padding-top: 0 !important;
+	}
+	.print-teacher.course-wise-que-table
+		.question-row
+		.questions-wrapper
+		.ant-card-body {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	body .print-teacher .ant-divider {
+		display: none !important;
+	}
+
+	body
+		.exam-details-page.teachers-view
+		.questions-wrapper
+		.result-input.correctbutnotans
+		.ant-checkbox-inner,
+	body
+		.exam-details-page.teachers-view
+		.questions-wrapper
+		.result-input.correctbutnotans
+		.ant-radio-inner,
+	body
+		.exam-details-page.teachers-view
+		.questions-wrapper
+		.ant-radio-wrapper-checked
+		.ant-radio-checked
+		.ant-radio-inner,
+	body
+		.exam-details-page.teachers-view
+		.questions-wrapper
+		.ant-checkbox-wrapper-checked
+		.ant-checkbox-checked
+		.ant-checkbox-inner,
+	body
+		.exam-details-page.teachers-view
+		.questions-wrapper
+		.ant-radio-wrapper.result-input.correct
+		.ant-radio-inner,
+	body
+		.exam-details-page.teachers-view
+		.questions-wrapper
+		.ant-checkbox-wrapper.result-input.correct
+		.ant-checkbox-inner {
+		background: #616161 !important;
+		border-color: #616161 !important;
+	}
+
+	body
+		.exam-details-page.teachers-view
+		.questions-wrapper
+		.ant-radio-wrapper.result-input.incorrect
+		.ant-radio-inner,
+	body
+		.exam-details-page.teachers-view
+		.questions-wrapper
+		.ant-radio-wrapper.result-input:not(.correct):not(.incorrect):not(.correctbutnotans)
+		.ant-radio-inner,
+	body
+		.exam-details-page.teachers-view
+		.questions-wrapper
+		.ant-radio-wrapper:not(.result-input)
+		.ant-radio-inner,
+	body
+		.exam-details-page.teachers-view
+		.questions-wrapper
+		.ant-checkbox-wrapper:not(.result-input)
+		.ant-checkbox-inner {
+		border-color: #616161 !important;
+	}
+
+	.exam-details-page.teachers-view .explanation-card {
+		background: #fff;
+	}
+
+	.exam-details-page.teachers-view
+		.questions-wrapper
+		> .ant-card
+		> .ant-card-body {
+		padding-top: 5px !important;
+		padding-bottom: 5px !important;
+	}
+	.exam-details-page.teachers-view .exam-title-teacher-view {
+		padding-top: 15px !important;
+		padding-bottom: 5px !important;
+	}
+}
+
+.avatar-group-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.avatar-group-list li {
+  display: inline;
+  /* padding: 0 5px; */
+}
+
+.avatar-group-list li:not(:first-of-type) {
+  padding-left: 5px;
+}
+
+.avatar-group-list li:not(:last-of-type) {
+  padding-right: 5px;
+  border-right: 2px solid #ddd;
+}
+
+.score-total-marks {
+  text-align: center;
+  font-size: 18px !important;
+  color: #1D8694 !important;
+  margin-bottom: 15px !important;
+}
+
+.score-summary-card .ant-card-body {
+  display: flex;
+  align-items: center;
+}
+
+.score-summary-card .ant-card-body .icon svg {
+  width: 100%;
+  height: auto;
+}
+.score-summary-card .ant-card-body .icon {
+  width: 60px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.score-summary-card .score-summary {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+.score-summary-card .score-summary .score-summary-title {
+  font-size: 18px;
+}
+
+.score-summary-card .score-summary .score-summary-value {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) and (min-width: 426px) {
+  .score-summary-card .ant-card-body {
+    padding: 15px;
+  }
+  .score-summary-card .ant-card-body .icon {
+    width: 48px !important;
+  }
+  .score-summary-card .score-summary .score-summary-title {
+    font-size: 14px;
+  }
+  .score-summary-card .score-summary .score-summary-value {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 425px) {
+  .score-summary-card .ant-card-body {
+    padding: 10px;
+  }
+  .score-summary-card .ant-card-body .icon {
+    width: 32px !important;
+  }
+  .score-summary-card .score-summary .score-summary-title {
+    font-size: 14px;
+  }
+  .score-summary-card .score-summary .score-summary-value {
+    font-size: 18px;
+  }
+}
+
+.students-scoreboard-table .ant-table {
+  border: 1px solid #3f51b5;
+  border-radius: 15px;
+  overflow-x: auto;
+}
+
+.students-scoreboard-table table .ant-table-thead th {
+	background: #3f51b5;
+	color: #fff;
+}
+
+.students-scoreboard-table .ant-pagination-item-active {
+	border-color: #3f51b5;
+}
+
+.students-scoreboard-table .ant-pagination-item-active a {
+	color: #3f51b5;
+}
+
+.students-scoreboard-table .ant-table-tbody > tr.ant-table-row:hover > td {
+	background: #f9f9fd;
+}
+
+.students-scoreboard-table span.is-success {
+  font-weight: 600;
+  color: #4caf50;
+}
+.students-scoreboard-table span.is-error {
+  font-weight: 600;
+  color: #f44336;
+}
+
+.table-center-text {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}

@@ -1,0 +1,146 @@
+.exam-tab .ant-tabs-nav-wrap {
+	background-color: beige;
+}
+
+.exam-tab .ant-tabs-tab-btn {
+	font-size: 1.1em;
+	font-weight: 800 !important;
+}
+
+@media (max-width: 1200px) and (min-width: 991px) {
+	.examcard-meta-info {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+@media (max-width: 990px) and (min-width: 768px) {
+	.examcard-meta-info {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+}
+@media (max-width: 767px) {
+	.examcard-meta-info {
+		padding-left: 30px !important;
+		/* padding-right: 0px !important; */
+	}
+}
+
+@media (max-width: 575px) and (min-width: 425px) {
+	.marks-col {
+		position: absolute;
+		right: 20px;
+		top: 18px;
+	}
+}
+
+@media (max-width: 424px) {
+	.marks-col {
+		position: absolute;
+		right: 15px;
+		top: 8px;
+	}
+}
+
+.studentExamTab .ant-tabs-nav-wrap {
+	justify-content: center;
+}
+
+.studentExamTab .ant-tabs-tab .ant-tabs-tab-btn {
+	font-size: 18px;
+	font-weight: 600;
+}
+.studentExamTab .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+	color: #ee473f;
+}
+.studentExamTab .ant-tabs-nav-list .ant-tabs-tab:nth-child(2) {
+	margin-right: 0 !important;
+}
+.studentExamTab .ant-tabs-nav-list .ant-tabs-ink-bar {
+	height: 5px;
+	border-radius: 25px;
+	background: #ee473f;
+	bottom: -5px;
+}
+.studentExamTab .ant-tabs-nav .ant-tabs-nav-list {
+	border-bottom: 5px solid #dccddc;
+}
+
+.studentExamTab.ant-tabs-top > .ant-tabs-nav::before {
+	border-bottom: 0;
+}
+
+.exam-filter-nav {
+	display: flex;
+	justify-content: center;
+}
+@media (min-width: 1024px) {
+	.selectLiveExamType {
+		position: absolute;
+		right: 0;
+		top: -54px;
+	}
+}
+@media (max-width: 1023px) {
+	.selectLiveExamType {
+		margin-bottom: 20px;
+	}
+
+	.selectSubject-select,
+	.selectLiveExamType-select {
+		justify-content: center;
+	}
+
+	.exam-filter-nav {
+		flex-flow: column;
+	}
+}
+
+.selectSubject-select
+	.ant-select-single:not(.ant-select-customize-input)
+	.ant-select-selector,
+.selectLiveExamType-select
+	.ant-select-single:not(.ant-select-customize-input)
+	.ant-select-selector {
+	background-color: transparent;
+	border: none;
+}
+
+.selectSubject-select .ant-select-selection-item,
+.selectLiveExamType-select .ant-select-selection-item {
+	color: #ee473f;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.selectSubject-select .ant-select-arrow,
+.selectLiveExamType-select .ant-select-arrow {
+	color: #ee473f;
+	font-size: 16px;
+	top: 41%;
+}
+
+.selectSubject-select
+	.ant-select:not(.ant-select-disabled):hover
+	.ant-select-selector,
+.selectLiveExamType-select
+	.ant-select:not(.ant-select-disabled):hover
+	.ant-select-selector,
+.selectSubject-select
+	.ant-select-focused:not(.ant-select-disabled).ant-select-single:not(.ant-select-customize-input)
+	.ant-select-selector,
+.selectLiveExamType-select
+	.ant-select-focused:not(.ant-select-disabled).ant-select-single:not(.ant-select-customize-input)
+	.ant-select-selector {
+	border-color: transparent !important;
+	box-shadow: none !important;
+}
+
+.selectSubject-select
+	.ant-select-single.ant-select-open
+	.ant-select-selection-item,
+.selectLiveExamType-select
+	.ant-select-single.ant-select-open
+	.ant-select-selection-item {
+	color: #ee473f;
+}

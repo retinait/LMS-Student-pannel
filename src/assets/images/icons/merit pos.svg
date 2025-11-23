@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-merit_pos">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="merit_pos" data-name="merit pos" clip-path="url(#clip-merit_pos)">
+    <circle id="Ellipse_186" data-name="Ellipse 186" cx="243.5" cy="243.5" r="243.5" transform="translate(13 13)" fill="#036987"/>
+    <g id="Group_379" data-name="Group 379" transform="translate(119.163 125.595)">
+      <rect id="Rectangle_952" data-name="Rectangle 952" width="274.672" height="103.869" rx="16" transform="translate(0 117.902)" fill="#fff"/>
+      <rect id="Rectangle_953" data-name="Rectangle 953" width="220.052" height="101.991" rx="19" transform="translate(83.813 220.052) rotate(-90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

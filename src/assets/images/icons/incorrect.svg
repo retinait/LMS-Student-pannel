@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-incorrect">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="incorrect" clip-path="url(#clip-incorrect)">
+    <g id="Group_408" data-name="Group 408" transform="translate(-184.719 -201.719)">
+      <circle id="Ellipse_186" data-name="Ellipse 186" cx="243.5" cy="243.5" r="243.5" transform="translate(197.719 214.719)" fill="#ee4e46"/>
+      <path id="Icon_metro-cross" data-name="Icon metro-cross" d="M267.085,216.391l0,0L186.1,135.4l80.983-80.985,0,0a8.362,8.362,0,0,0,0-11.8L228.827,4.365a8.364,8.364,0,0,0-11.8,0s0,0,0,0L136.045,85.35,55.062,4.365l0,0a8.363,8.363,0,0,0-11.795,0L5.008,42.622a8.362,8.362,0,0,0,0,11.795l0,0L85.992,135.4,5.008,216.389l0,0a8.36,8.36,0,0,0,0,11.795l38.256,38.256a8.362,8.362,0,0,0,11.8,0l0,0,80.984-80.985,80.984,80.985,0,0a8.36,8.36,0,0,0,11.794,0l38.256-38.257a8.36,8.36,0,0,0,0-11.795Z" transform="translate(301.811 319.457)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-skipped">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="skipped" clip-path="url(#clip-skipped)">
+    <g id="Group_402" data-name="Group 402" transform="translate(-11.389 -235.389)">
+      <circle id="Ellipse_186" data-name="Ellipse 186" cx="243.5" cy="243.5" r="243.5" transform="translate(29.389 241.389)" fill="#eb8a35"/>
+      <path id="Icon_awesome-exclamation" data-name="Icon awesome-exclamation" d="M96.958,223.433c0,22.815-21.5,41.377-47.916,41.377S1.125,246.248,1.125,223.433s21.5-41.376,47.916-41.376S96.958,200.618,96.958,223.433ZM6.671,13.033l8.146,140.68c.383,6.606,6.7,11.793,14.357,11.793H68.909c7.66,0,13.974-5.187,14.357-11.793l8.146-140.68C91.822,5.943,85.276,0,77.055,0H21.028C12.807,0,6.261,5.943,6.671,13.033Z" transform="translate(221.596 353.958)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,103 @@
+.exam-title {
+	margin-bottom: 0 !important;
+	color: #fff !important;
+	font-size: 18px !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.student-exam-card {
+	overflow: hidden;
+}
+.student-exam-card .ant-card-bordered {
+	border-radius: 10px;
+	border: 1px solid rgb(112 112 112 / 0.66);
+	background: #fff;
+	height: 100%;
+}
+
+.student-exam-card .ant-card-bordered .ant-card-body {
+	padding: 10px 10px 15px 10px;
+	height: 100%;
+}
+.student-exam-card.card-hover {
+	/* border-top: 10px solid #40a9ff !important; */
+}
+
+.student-exam-card.green-card {
+	/* border-top: 10px solid #4caf50; */
+}
+.student-exam-card.gray-card {
+	/* border-top: 10px solid #9a9898; */
+}
+.student-exam-card.blue-card {
+	/* border-top: 10px solid #6974df; */
+}
+
+.green-card .exam-btn:hover,
+.gray-card .exam-btn:hover,
+.blue-card .exam-btn:hover {
+	background: #40a9ff;
+	border-color: #40a9ff;
+	display: inline-block;
+	/* width: auto; */
+	border-radius: 50px;
+}
+.green-card .exam-btn {
+	background: #4caf50;
+	border-color: #4caf50;
+}
+.gray-card .exam-btn {
+	background: #9a9898;
+	border-color: #9a9898;
+}
+.blue-card .exam-btn {
+	background: #6974df;
+	border-color: #6974df;
+}
+
+.live-exam-section-title {
+	padding: '0 30px';
+	margin-right: 10px;
+	margin-bottom: 0px !important;
+}
+
+.exam-title-row {
+	background: linear-gradient(45deg, rgba(24, 144, 255, 0.2), #036987);
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 10px;
+}
+
+.student-exam-card.blue-card .exam-title-row {
+	background: linear-gradient(45deg, #0093be, #036987);
+}
+.student-exam-card.red-card .exam-title-row {
+	background: linear-gradient(45deg, #ee473f, #c1322b);
+}
+.student-exam-card.pine-card .exam-title-row {
+	background: #009688;
+}
+
+.examcard-meta-info .icon {
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+	vertical-align: text-bottom;
+}
+
+@media (min-width: 576px) {
+	.student-exam-card .ant-layout-content {
+		height: 100%;
+		padding-bottom: 120px;
+		position: relative;
+	}
+
+	.student-exam-card .ant-row.exam-card-btns {
+		position: absolute;
+		bottom: 15px;
+		left: 0;
+		right: 0;
+	}
+}
