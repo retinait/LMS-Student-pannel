@@ -23,7 +23,7 @@ const { Header, Content } = Layout;
 const tabMenuData = [
 	{
 		key: 'courses',
-		title: 'My Courses check',
+		title: 'My Courses',
 		url: '/courses',
 		icon: (
 			<BookIcon
@@ -104,11 +104,11 @@ const StudentSubjects = props => {
 						</Col>
 					</Row>
 					<Row style={{ marginRight: 0, marginLeft: 0 }} gutter={[24, 24]}>
-						{/* Left Sidebar */}
+						{/* Course info on student profile - Ibrahim */}
 						<Col xs={24} lg={6}>
 							<CourseInfoSidebar courseData={courseData} subjectList={subjectList} />
 						</Col>
-						{/* Main Content */}
+						{/* Existing Content */}
 						<Col xs={24} lg={18}>
 							<Row style={{ marginRight: 0, marginLeft: 0 }}>
 								<Col xs={24}>

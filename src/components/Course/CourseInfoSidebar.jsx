@@ -12,8 +12,6 @@ const { Title, Text } = Typography;
 const CourseInfoSidebar = ({ courseData, subjectList = [], bookList = [] }) => {
 	const studentProfile = useSelector(state => state.studentAuth.studentProfile);
 
-    console.log('CourseInfoSidebar - courseData:', courseData);
-
 	const getFullImageUrl = (imagePath) => {
 		if (!imagePath) return defaultAvatar;
 		if (imagePath.startsWith('http')) return imagePath;

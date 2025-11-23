@@ -1,3 +1,4 @@
+/* student course details sidebar styles */
 .course-info-sidebar {
 	position: sticky;
 	top: 20px;
@@ -10,7 +11,6 @@
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Student Profile Card */
 .student-profile-card {
 	text-align: center;
 	padding: 20px;
@@ -99,5 +99,20 @@
 		position: relative;
 		top: 0;
 		margin-bottom: 20px;
+	}
+	.course-details-card {
+		display: none;
+	}
+	.student-profile-card {
+		display: none;
+	}
+	.course-info-sidebar {
+	position: sticky;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
+	justify-content: center;
+	top: 20px;
+	height: fit-content;
 	}
 }
