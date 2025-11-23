@@ -1,0 +1,15 @@
+.notification-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #f44336;
+	display: block;
+}
+
+.ant-list-vertical .ant-list-item-main {
+	min-width: auto;
+}
+
+.notification-drawer-list .ant-list-item-meta-title {
+	margin-bottom: 0;
+}

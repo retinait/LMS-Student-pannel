@@ -1,0 +1,48 @@
+.resource-btn {
+	background-color: #eee;
+	border-color: #ccc;
+}
+.resource-btn a {
+	color: #222;
+}
+.resource-btn:hover {
+	color: #000;
+	border-color: #e55656;
+}
+
+@media (max-width: 425px) {
+	.mb-hide {
+		display: none !important;
+	}
+	.mb-show {
+		display: inline-block;
+	}
+}
+
+@media (min-width: 426px) {
+	.mb-show {
+		display: none !important;
+	}
+}
+
+.students-notes-table .ant-table {
+	border: 1px solid #3f51b5;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.students-notes-table table .ant-table-thead th {
+	background: #3f51b5;
+	color: #fff;
+}
+
+.students-notes-table .ant-pagination-item-active {
+	border-color: #3f51b5;
+}
+
+.students-notes-table .ant-pagination-item-active a {
+	color: #3f51b5;
+}
+
+.students-notes-table .ant-table-tbody > tr.ant-table-row:hover > td {
+	background: #f9f9fd;
+}

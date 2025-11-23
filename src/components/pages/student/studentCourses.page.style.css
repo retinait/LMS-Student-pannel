@@ -1,0 +1,82 @@
+/* @media (min-width: 768px) {
+	.student-course-page .course-card .course-card-meta {
+		padding-top: 60px !important;
+	}
+} */
+.course-card .ant-layout {
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	-ms-border-radius: 16px;
+	-o-border-radius: 16px;
+	background-color: #F1F5F9;
+}
+
+.course-card .ant-layout-header {
+
+
+	padding: 17px 23px;
+	height: unset;
+	text-align: center;
+	border-radius: 0px;
+	background: var(--Slate-100, #F1F5F9);
+	min-height: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-height: 130px !important;
+	overflow: hidden;
+
+}
+
+.course-card .ant-layout-header h3 {
+	max-height: 104px;
+	line-height: 1.5em;
+	white-space: initial;
+	color: var(--Primary-2, #EE473F);
+	font-size: 30px !important;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+
+.course-card .ant-layout-content {
+	padding: 58px 83px !important;
+	text-align: center;
+	border-radius: 0px;
+	background: #FFF;
+}
+
+.course-card .proceed-btn {
+	border-radius: 6px;
+	border: 1px solid var(--Primary-2, #EE473F);
+	background: var(--Primary-2, #EE473F);
+	color: #FFF;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px;
+	max-width: 248px;
+	width: 100%;
+	padding: 10px 24px;
+	margin: auto;
+	height: unset;
+}
+
+@media screen and (max-width: 991.98px) {
+	.course-card .ant-layout-content {
+		padding: 17px 23px !important;
+	}
+
+	.course-card .ant-layout-header {
+		padding: 30px 23px;
+	}
+
+	.course-card .ant-layout-header h3 {
+		font-size: 24px !important;
+		max-height: 70px !important;
+		overflow: hidden;
+	}
+}

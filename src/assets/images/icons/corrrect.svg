@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-corrrect">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="corrrect" clip-path="url(#clip-corrrect)">
+    <g id="Group_401" data-name="Group 401" transform="translate(-17.756 -211.756)">
+      <circle id="Ellipse_186" data-name="Ellipse 186" cx="243.5" cy="243.5" r="243.5" transform="translate(30.756 217.756)" fill="#2c9c55"/>
+      <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M102.253,224.674,4.409,126.828a15.054,15.054,0,0,1,0-21.288L25.7,84.252a15.052,15.052,0,0,1,21.288,0L112.9,150.164,254.075,8.986a15.053,15.053,0,0,1,21.288,0L296.65,30.274a15.054,15.054,0,0,1,0,21.288L123.541,224.674A15.053,15.053,0,0,1,102.253,224.674Z" transform="translate(131.131 337.107)" fill="#f3f3f3"/>
+    </g>
+  </g>
+</svg>

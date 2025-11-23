@@ -1,0 +1,108 @@
+/* Container */
+.bkash-container {
+    max-width: 1152px; /* 768 * 1.5 */
+    height: 100vh;
+    margin: 0 auto;
+    padding: 6rem 2.25rem; /* 4rem*1.5  and 1.5rem*1.5 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem; /* 2rem * 1.5 */
+  }
+  
+  /* Logo */
+  .retina-logo {
+    width: 18rem; /* 12rem * 1.5 */
+  }
+  
+  /* Card */
+  .bkash-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem; /* 1rem * 1.5 */
+    border: 1px solid #e5e7eb;
+    border-radius: 1.125rem; /* 0.75rem * 1.5 */
+    padding: 3rem; /* 2rem * 1.5 */
+  }
+  
+  /* Animation */
+  .bkash-animation {
+    width: 15rem !important; /* 10rem * 1.5 */
+    height: 15rem !important; /* 10rem * 1.5 */
+  }
+  
+  /* Text */
+  .bkash-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* 1rem * 1.5 */
+  }
+  
+  .bkash-subtext {
+    font-size: 1.3125rem; /* 0.875rem * 1.5 */
+    color: #6b7280;
+  }
+  
+  .bkash-heading {
+    font-size: 2.25rem; /* 1.5rem * 1.5 */
+    font-weight: 700;
+    letter-spacing: -0.015em; /* slightly increased */
+  }
+  
+  @media (min-width: 768px) {
+    .bkash-heading {
+      font-size: 2.8125rem; /* 1.875rem * 1.5 */
+    }
+  }
+  
+  /* Action buttons */
+  .bkash-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.125rem; /* 0.75rem * 1.5 */
+  }
+  
+  @media (min-width: 640px) {
+    .bkash-actions {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
+  /* Receipt button */
+  .btn-receipt {
+    font-size: 1.125rem !important; /* default ~16px → 24px */
+    padding: 0.75rem 1.5rem !important; /* scaled padding */
+    color: #ef4444 !important;
+    border: 2px solid #ef4444 !important; /* thicker border */
+    background: transparent !important;
+  }
+  
+  .btn-receipt:hover {
+    background-color: #fef2f2 !important;
+  }
+  
+  /* Courses button */
+  .btn-courses {
+    font-size: 1.125rem !important;
+    padding: 0.75rem 1.5rem !important;
+    background-color: #8B1C1C !important;
+    color: #fff !important;
+  }
+  
+  .btn-courses:hover {
+    background-color: #741717 !important;
+  }
+  
+  /* Icons inside buttons */
+  .icon {
+    margin-left: 0.75rem; /* 0.5rem * 1.5 */
+    margin-right: 0.75rem;
+    height: 1.5rem; /* 1rem * 1.5 */
+    width: 1.5rem;
+  }
+  

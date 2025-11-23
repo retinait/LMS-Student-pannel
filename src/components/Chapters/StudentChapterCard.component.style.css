@@ -1,0 +1,54 @@
+.student-chapter-card {
+	overflow: hidden;
+}
+
+.student-chapter-card .ant-card-body {
+	position: relative;
+}
+
+.student-chapter-card .ant-card-body,
+.student-chapter-card .ant-row,
+.student-chapter-card .ant-card-body .ant-layout-content {
+	height: 100%;
+}
+
+.student-chapter-card .ant-card-body .ant-row {
+	padding-bottom: 65px;
+}
+
+.chapter-card-button-wrap {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #fafafa;
+	text-align: center;
+	border-top: 1px solid #eaeaea;
+	/* box-shadow: 0 -5px 13px 0px rgb(0 0 0 / 8%);  */
+}
+
+.chapter-card-button-wrap .ant-space {
+	display: flex;
+	justify-content: stretch;
+}
+
+.chapter-card-button-wrap .ant-space .ant-space-item {
+	width: 100%;
+}
+
+.chapter-card-button-wrap a {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 0;
+	transition: all 0.4s;
+}
+
+.chapter-card-button-wrap a:hover {
+	background-color: #1890ff;
+}
+
+.chapter-card-button-wrap a:hover .anticon,
+.chapter-card-button-wrap a:hover .ant-btn {
+	color: #ffffff !important;
+}

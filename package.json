@@ -1,0 +1,89 @@
+{
+  "name": "retina-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/charts": "^1.0.17",
+    "@matejmazur/react-katex": "^3.1.3",
+    "@reduxjs/toolkit": "^1.4.0",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "antd": "^4.8.0",
+    "antd-css-utilities": "^1.0.2",
+    "antd-mobile": "^2.3.4",
+    "array-move": "^3.0.1",
+    "audio-react-recorder": "^1.0.5",
+    "axios": "^0.21.0",
+    "crypto-js": "^4.0.0",
+    "draft-js": "^0.11.7",
+    "env-cmd": "^10.1.0",
+    "extendable-media-recorder-wav-encoder": "^7.0.115",
+    "file-saver": "^2.0.5",
+    "google-libphonenumber": "^3.2.15",
+    "history": "^5.3.0",
+    "js-cookie": "^3.0.5",
+    "jszip": "^3.5.0",
+    "lottie-react": "^2.4.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-audio-voice-recorder": "^2.2.0",
+    "react-cookie": "^7.1.4",
+    "react-cropper": "^2.3.3",
+    "react-dom": "^17.0.1",
+    "react-hls-player": "^3.0.7",
+    "react-latex": "^2.0.0",
+    "react-newline-to-break": "^1.0.6",
+    "react-otp-input": "^2.3.0",
+    "react-papaparse": "^3.11.0",
+    "react-player": "^2.6.2",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-rte": "^0.16.3",
+    "react-scripts": "^4.0.0",
+    "react-sortable-hoc": "^1.11.0",
+    "react-timer-hook": "^3.0.7",
+    "react-to-print": "^3.1.1",
+    "socket.io-client": "^3.0.3",
+    "toastr": "^2.1.4",
+    "video.js": "^8.3.0",
+    "videojs-contrib-eme": "^3.8.0",
+    "videojs-contrib-hls": "^5.15.0",
+    "videojs-contrib-quality-levels": "^4.1.0",
+    "videojs-dynamic-watermark": "^1.1.0",
+    "videojs-hls-quality-selector": "^2.0.0",
+    "videojs-http-source-selector": "^1.1.6",
+    "videojs-youtube": "^3.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "env-cmd -f dev.env react-scripts --openssl-legacy-provider start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts --openssl-legacy-provider build",
+    "build:dev": "env-cmd -f ./dev.env react-scripts --openssl-legacy-provider build",
+    "build:prod": "env-cmd -f ./prod.env react-scripts --openssl-legacy-provider build",
+    "build:stage": "env-cmd -f ./stage.env react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.1"
+  }
+}

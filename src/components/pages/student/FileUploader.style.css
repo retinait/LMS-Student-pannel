@@ -1,0 +1,13 @@
+.file-preview {
+  margin-top: 10px;
+}
+
+/* scrollable file list */
+.file-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  gap: 10px;
+  width: 100%;
+}

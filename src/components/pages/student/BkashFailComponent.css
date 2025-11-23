@@ -1,0 +1,88 @@
+/* Container */
+.bkash-fail-container {
+    max-width: 54rem; /* 36rem * 1.5 */
+    height: 100vh;
+    margin: 0 auto;
+    padding: 6rem 2.25rem; /* 4rem*1.5  and 1.5rem*1.5 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 3rem; /* 2rem * 1.5 */
+  }
+  
+  /* Logo */
+  .retina-logo {
+    width: 15rem; /* 10rem * 1.5 */
+  }
+  
+  /* Card */
+  .bkash-fail-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem; /* 1rem * 1.5 */
+    border: 1.5px solid #e5e7eb; /* border slightly thicker */
+    border-radius: 1.125rem; /* 0.75rem * 1.5 */
+    padding: 3rem; /* 2rem * 1.5 */
+  }
+  
+  /* Animation */
+  .bkash-fail-animation {
+    width: 15rem !important; /* 10rem * 1.5 */
+    height: 15rem !important; /* 10rem * 1.5 */
+  }
+  
+  /* Text */
+  .bkash-fail-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* 1rem * 1.5 */
+  }
+  
+  .bkash-fail-subtext {
+    font-size: 1.3125rem; /* 0.875rem * 1.5 */
+    color: #dc2626;
+  }
+  
+  .bkash-fail-heading {
+    font-size: 2.25rem; /* 1.5rem * 1.5 */
+    font-weight: 700;
+    letter-spacing: -0.015em; /* slightly more tracking */
+  }
+  
+  @media (min-width: 768px) {
+    .bkash-fail-heading {
+      font-size: 2.8125rem; /* 1.875rem * 1.5 */
+    }
+  }
+  
+  /* Action Buttons */
+  .bkash-fail-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.125rem; /* 0.75rem * 1.5 */
+  }
+  
+  @media (min-width: 640px) {
+    .bkash-fail-actions {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
+  /* Retry Button */
+  .btn-retry {
+    font-size: 1.125rem !important; /* ~18px */
+    padding: 0.75rem 1.5rem !important; /* increased padding */
+    background-color: #8b1c1c !important;
+    color: #fff !important;
+    border-radius: 0.75rem !important; /* slightly bigger */
+  }
+  
+  .btn-retry:hover {
+    background-color: #741717 !important;
+  }
+  
